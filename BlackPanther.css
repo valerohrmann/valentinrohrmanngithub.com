@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+
+/*BARRA SUPERIOR*/
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #888;
+  align-items: center;
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+a{
+  text-decoration: none;
+  color:#000
+}
+nav a{
+  display:flex;
+  font-family: 600;
+  padding-right: 80px;
+}
+.nav1{
+  padding: 80px;
+}
+/*FIN BARRA SUPERIOR*/
+
+
+
+/*CARRUSEL DE IMÁGENES*/
+body{
+  margin: 0;
+  background-color: #fff;
+}
+.imagenes{
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  text-align:center;
+  background-color: #000;
+}
+.imagenes ul{
+  display: flex;
+  animation: cambio 25s infinite alternate linear;
+  width: 400%;
+}
+.imagenes li{
+  width: 50%;
+  list-style: none;
+}
+
+/*EDITAR IMÁGENES*/
+.imagenes img{
+  width: 50%;
+  
+  opacity: 0.89;
+  border:3px solid #000;
+  /*...*/
+}
+
+@keyframes cambio{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left:-100%;}
+  45%{margin-left:-100%;}
+
+  50%{margin-left:-200%;}
+  70%{margin-left:-200%;}
+
+  75%{margin-left:-300%;}
+  100%{margin-left:-300%;}
+}
+/*FIN DEL CARRUSEL*/
+
+
+
+/*TÍTULO BLACK PANTHER*/
+.black{
+  color: #000;
+  font-family: Letra;
+  font-size: 100px;
+  text-align: center;
+  line-height: 120px;
+}
+
+/*LETRA*/
+@font-face{
+  font-family: Letra;
+  src: url("aAtmospheric.ttf");
+}
+
+/*FIN TÍTULO BLACK PANTHER*/
+
+
+
+/*CUADRÍCULAS*/
+
+#cuadricula{
+  width: 1450px;
+  margin:0px auto;
+}
+
+.cuadros img{
+  width: 293px;
+  height: 293px;
+  border-radius: 50px;
+}
+.cuadros{
+  width: 300px;
+  height: 300px;
+  background-color: #888;
+  margin: 30px;
+  float: left;
+  border:3px solid #000;
+  text-align: center;
+  line-height: 278px;
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.br{
+  float: none;
+  clear:both;
+}
+/*FIN DE CUADRÍCULA*/
+
+/*FONDO DE CADA CUADRO DE CUADRICULA Y HOVER*/
+.remera{
+  background-image: url(remera.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.remera:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.pantalon{
+  background-image: url(pantalon.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.pantalon:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.parka{
+  background-image: url(parka.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.parka:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.buzo{
+  background-image: url(buzo.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.buzo:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.campera{
+  background-image: url(campera.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.campera:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.camperon{
+  background-image: url(camperon.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.camperon:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.bermuda{
+  background-image: url(bermuda.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.bermuda:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.gorra{
+  background-image: url(gorra.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.gorra:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.boxer{
+  background-image: url(boxer.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.boxer:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.chaleco{
+  background-image: url(chaleco.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.chaleco:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.sweater{
+  background-image: url(sweater.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.sweater:hover{
+  opacity: 0.4;
+  color:#fff
+}
+.jean{
+  background-image: url(jean.png);
+  height: 294px;
+  border-radius: 50px;
+}
+.jean:hover{
+  opacity: 0.4;
+  color:#fff
+}
